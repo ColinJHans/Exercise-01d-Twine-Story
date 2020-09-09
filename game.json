@@ -1,164 +1,171 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "You are a Hedge Knight in the world of A Song and Ice and Fire, on the continent Westeros. You are currently in a tavern in the North, in the retinue of a noble woman to bring her daughter down to the Riverlands, to protect her from the Ironborn and Wildlings\nYour charge has turned in for the night, but you wanted to grab a drink and maybe some food so you went downstairs.\nWhat do you do?\n[[Order food->Order]]\n[[Listen for information->Info]]\n[[Look for a fight->Fight]]",
+      "links": [
+        {
+          "name": "Order food",
+          "link": "Order",
+          "pid": "2"
+        },
+        {
+          "name": "Listen for information",
+          "link": "Info",
+          "pid": "3"
+        },
+        {
+          "name": "Look for a fight",
+          "link": "Fight",
+          "pid": "4"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Start",
+      "pid": "1",
+      "position": {
+        "x": "860",
+        "y": "398.5"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "\"Yes hello\" you call out to a barmaid walking past.\"Oh yes, one moment ser.\" She delivers the food to the table across the way from yours. \"Yes what could I get you?\"\nYou order an Ale and a Turkey Leg. She leaves\n\"Oi.\" A man wearing what appears to be the crest of a minor Lord in the South. \"Watter you doing this far south ey? Too scared of the Ironborn.\"\nYou grit your teeth, and subconsciously start moving your hand to your sword.\n\"ah ah ah, not so fast\"\nWhat do you do?\n[[Draw Sword ->Fight]]\n[[Talk ->Parley]]",
+      "links": [
+        {
+          "name": "Draw Sword",
+          "link": "Fight",
+          "pid": "4"
+        },
+        {
+          "name": "Talk",
+          "link": "Parley",
+          "pid": "5"
+        }
+      ],
+      "name": "Order",
+      "pid": "2",
+      "position": {
+        "x": "710",
+        "y": "548.5"
+      }
+    },
+    {
+      "text": "You sit at the bar and order an ale to appear inconspicous\nThere are multiple interesting parties surrounding you, but you can only listen to one\nThere's the Dornish couple, far too North to be not noticedf, maybe trying to negotiate something.\nThere's 3 men at arms from the Lannisters sulking in the corner trying to not be noticed, but the lions on their chestplates make it impossible not to\nFinally, there's two Ironborn who have been glaring at you since you walked in\nWho do you listen to?\n[[Dornish Couple-> Dornish]]\n[[Lannister Soldiers-> Lannister]]\n[[Ironborn -> PreFight]]",
+      "links": [
+        {
+          "name": "Dornish Couple",
+          "link": " Dornish",
+          "pid": "6"
+        },
+        {
+          "name": "Lannister Soldiers",
+          "link": " Lannister",
+          "pid": "7"
+        },
+        {
+          "name": "Ironborn",
+          "link": " PreFight",
+          "pid": "8"
+        }
+      ],
+      "name": "Info",
+      "pid": "3",
+      "position": {
+        "x": "860",
+        "y": "548.5"
+      }
+    },
+    {
+      "text": "\"OI, I don't think that my lord would take kindly to me letting you survive, can't let any of you bloody Starks live.\"\nThey both draw their swords, but even quicker than they approached you, 3 lannister men at arms drew their swords and stepped in between the you and the Ironborn.\n\"I'm sure that Cersei wouldn't mind if I gutted you ey? Joffrey would love to put all of your heads on pikes\"\nThe Ironborn both grumble, but walk out of the tavern\n[[To be Continued]]",
+      "links": [
+        {
+          "name": "To be Continued",
+          "link": "To be Continued",
+          "pid": "9"
+        }
+      ],
+      "name": "Fight",
+      "pid": "4",
+      "position": {
+        "x": "1010",
+        "y": "548.5"
+      }
+    },
+    {
+      "text": "\"Listen here boys, I'm sure we can talk this out.\" you exclaim, while resting your hand firmly on your sword.\n\"Nah mate, your lords done pissed us off, we want you dead.\"\nLooks like you have no choice\n[[Click to continue->Fight]] ",
+      "links": [
+        {
+          "name": "Click to continue",
+          "link": "Fight",
+          "pid": "4"
+        }
+      ],
+      "name": "Parley",
+      "pid": "5",
+      "position": {
+        "x": "710",
+        "y": "698.5"
+      }
+    },
+    {
+      "text": "The couples harsh whispers are hard to make out in the loud tavern but you can hear the faintest of words.\n\"She's promised to Joffrey already, we are too late.\"\nIt's not a secret who theyre talking about. Lady Sansa Stark, perhaps this couple was wanting to join their own house with the Starks.\n[[To be Continued]] ",
+      "links": [
+        {
+          "name": "To be Continued",
+          "link": "To be Continued",
+          "pid": "9"
+        }
+      ],
+      "name": " Dornish",
+      "pid": "6",
+      "position": {
+        "x": "830",
+        "y": "698.5"
+      }
+    },
+    {
+      "text": "The 3 Lannister soldiers in the corner are discussing what appear to be upcoming battles.\n\"We will meet them at the Trident with the host of our forces, while a small detatchment will attack from the side.\"\nThe one talking carves the table with his knife to demonstrate the tactics.\n[[Click to Continue->To be Continued]] ",
+      "links": [
+        {
+          "name": "Click to Continue",
+          "link": "To be Continued",
+          "pid": "9"
+        }
+      ],
+      "name": " Lannister",
+      "pid": "7",
+      "position": {
+        "x": "950",
+        "y": "698.5"
+      }
+    },
+    {
+      "text": "Before you can even start to listen to their conversation they see your eyes and walk on over to you,.\nThis can't be good.\n[[Click to Continue ->Fight]]",
+      "links": [
+        {
+          "name": "Click to Continue ",
+          "link": "Fight",
+          "pid": "4"
+        }
+      ],
+      "name": " PreFight",
+      "pid": "8",
+      "position": {
+        "x": "1070",
+        "y": "698.5"
+      }
+    },
+    {
+      "text": "Wait till saturday to read the thrilling conclusion\n",
+      "name": "To be Continued",
+      "pid": "9",
+      "position": {
+        "x": "1190",
+        "y": "698.5"
+      }
+    }
+  ],
+  "name": "1d",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "837A3BB5-CE9D-47C9-9638-DF3B95CD3577"
+}
